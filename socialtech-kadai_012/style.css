@@ -325,12 +325,12 @@ PC用のスタイル
         width: 100%;
     }
 
-    ul {
+    #cases > ul {
         display: flex;
         list-style-type: none;
     }
 
-    li {
+    #cases > li {
         width: 33%;
         margin: 20px;
     }
