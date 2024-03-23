@@ -330,7 +330,7 @@ PC用のスタイル
         list-style-type: none;
     }
 
-    #cases > li {
+    #cases > ul > li {
         width: 33%;
         margin: 20px;
     }
