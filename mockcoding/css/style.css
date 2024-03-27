@@ -1,0 +1,296 @@
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/*=================
+PC用のスタイル
+=================*/
+@media  screen and (min-width: 768px) {
+    
+    body {
+        max-width: 1200px;
+        min-width: 768px;
+        margin: 0px;
+    }
+
+    /* ヘッダー */
+    nav {
+        width: 598px;
+        height: 80px;
+        margin: 20px;
+        display: flex;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #title-box {
+        width: 220px;
+        height: 69px;
+        border: solid 1px #000000;
+    }
+    #nav-title {
+        font-size: 34px;
+        font-weight: bold;
+        color: #000000;
+        position: relative;
+        top: 10px;
+        left: 30px;
+        text-decoration: none;
+    }
+    #nav-title:link {
+        color: #000000;
+    }
+    #nav-title:visited {
+        color: #000000;
+    }
+    #nav-title:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+    #nav-titleactive {
+        color: #000000;
+    }
+
+    #menu > a {
+        font-size: 34px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 15px;
+        position: relative;
+        top: 10px;
+        left: 100px;
+    }
+
+    #menu > a:link {
+        color: #000000;
+    }
+    #menu > a:visited {
+        color: #000000;
+    }
+    #menu > a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+    #menu > a:active {
+        color: #000000;
+    }
+
+    #main-visual {
+        padding: 0 30px;
+        display: flex;
+        justify-content: center;
+    }
+    #main-visual > img {
+        max-width: 960px;
+        height: 400px;
+    }
+
+    /* About */
+    #about {
+        height: 300px;
+        margin-top: 60px;
+    }
+
+    .section-title {
+        font-size: 34px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #about-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #about-left {
+        margin-right: 20px;
+        border-radius: 50%;
+        width: 141px;
+        height: 142px;
+    }
+    #about-right {
+        margin-left: 20px;
+    }
+    #about-right > p {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #about-right > ul {
+        padding-left: 30px;
+    }
+    #about-right > li {
+        font-size: 18px;
+    }
+
+    /* Works */
+    #works-flex {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    .works-card {
+        width: 180px;
+        margin: 10px;
+    }
+    .works-img {
+        width: 100%;
+    }
+    .works-content {
+        text-align: center;
+    }
+
+    /* フッター */
+    footer {
+        text-align: center;
+    }
+    footer > p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}
+
+/*==================
+スマートフォン用スタイル
+==================*/
+@media screen and (max-width: 767px) {
+    body {
+        margin: 0;
+    }
+    /* ヘッダー */
+    nav {
+        width: 598px;
+        height: 80px;
+        margin: 20px;
+        display: flex;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #title-box {
+        width: 220px;
+        height: 69px;
+        border: solid 1px #000000;
+    }
+    #nav-title {
+        font-size: 34px;
+        font-weight: bold;
+        color: #000000;
+        position: relative;
+        top: 10px;
+        left: 30px;
+        text-decoration: none;
+    }
+    #nav-title:link {
+        color: #000000;
+    }
+    #nav-title:visited {
+        color: #000000;
+    }
+    #nav-title:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+    #nav-titleactive {
+        color: #000000;
+    }
+
+    #menu > a {
+        font-size: 34px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 15px;
+        position: relative;
+        top: 10px;
+        left: 100px;
+    }
+
+    #menu > a:link {
+        color: #000000;
+    }
+    #menu > a:visited {
+        color: #000000;
+    }
+    #menu > a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+    #menu > a:active {
+        color: #000000;
+    }
+
+    #main-visual {
+        padding: 0 30px;
+        display: flex;
+        justify-content: center;
+    }
+    #main-visual > img {
+        max-width: 960px;
+        height: 400px;
+    }
+
+    /* About */
+    #about {
+        height: 300px;
+        margin-top: 60px;
+    }
+
+    .section-title {
+        font-size: 34px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #about-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #about-left {
+        margin-right: 20px;
+        border-radius: 50%;
+        width: 141px;
+        height: 142px;
+    }
+    #about-right {
+        margin-left: 20px;
+    }
+    #about-right > p {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #about-right > ul {
+        padding-left: 30px;
+    }
+    #about-right > li {
+        font-size: 18px;
+    }
+
+    /* Works */
+    #works {
+        margin-top: 20px;
+    }
+
+    #works-flex {
+        list-style-type: none;
+    }
+
+    .works-img {
+        width: 647px;
+        margin: 30px auto 0 auto;
+        display: block;
+    }
+    .works-content {
+        text-align: center;
+    }
+
+    /* フッター */
+    footer {
+        text-align: center;
+    }
+    footer > p {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+}
